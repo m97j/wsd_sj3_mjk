@@ -1,0 +1,567 @@
+{
+  "timestamp": "2024-12-15T07:51:56.531Z",
+  "method": "GET",
+  "url": "/api-docs/",
+  "headers": {
+    "host": "localhost:5000",
+    "connection": "keep-alive",
+    "cache-control": "max-age=0",
+    "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "upgrade-insecure-requests": "1",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "sec-fetch-site": "none",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-user": "?1",
+    "sec-fetch-dest": "document",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "en-US,en;q=0.9",
+    "if-none-match": "W/\"c22-H8FH9nKD8DeX/nvIRrte6ZjP2a4\""
+  },
+  "body": {},
+  "ip": "::1"
+}
+{
+  "timestamp": "2024-12-15T07:51:56.556Z",
+  "method": "GET",
+  "url": "/api-docs/swagger-ui.css",
+  "headers": {
+    "host": "localhost:5000",
+    "connection": "keep-alive",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?0",
+    "accept": "text/css,*/*;q=0.1",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-dest": "style",
+    "referer": "http://localhost:5000/api-docs/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "en-US,en;q=0.9",
+    "if-none-match": "W/\"25208-193aa5457c2\"",
+    "if-modified-since": "Mon, 09 Dec 2024 07:31:14 GMT"
+  },
+  "body": {},
+  "ip": "::1"
+}
+{
+  "timestamp": "2024-12-15T07:51:56.562Z",
+  "method": "GET",
+  "url": "/api-docs/swagger-ui-bundle.js",
+  "headers": {
+    "host": "localhost:5000",
+    "connection": "keep-alive",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?0",
+    "accept": "*/*",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-dest": "script",
+    "referer": "http://localhost:5000/api-docs/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "en-US,en;q=0.9",
+    "if-none-match": "W/\"15c282-193aa545899\"",
+    "if-modified-since": "Mon, 09 Dec 2024 07:31:14 GMT"
+  },
+  "body": {},
+  "ip": "::1"
+}
+{
+  "timestamp": "2024-12-15T07:51:56.566Z",
+  "method": "GET",
+  "url": "/api-docs/swagger-ui-standalone-preset.js",
+  "headers": {
+    "host": "localhost:5000",
+    "connection": "keep-alive",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?0",
+    "accept": "*/*",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-dest": "script",
+    "referer": "http://localhost:5000/api-docs/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "en-US,en;q=0.9",
+    "if-none-match": "W/\"38277-193aa545939\"",
+    "if-modified-since": "Mon, 09 Dec 2024 07:31:14 GMT"
+  },
+  "body": {},
+  "ip": "::1"
+}
+{
+  "timestamp": "2024-12-15T07:51:56.569Z",
+  "method": "GET",
+  "url": "/api-docs/swagger-ui-init.js",
+  "headers": {
+    "host": "localhost:5000",
+    "connection": "keep-alive",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?0",
+    "accept": "*/*",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-dest": "script",
+    "referer": "http://localhost:5000/api-docs/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "en-US,en;q=0.9",
+    "if-none-match": "W/\"6d7-Gfa9vPj/aKA+eh4ejF5VNkbKlC0\""
+  },
+  "body": {},
+  "ip": "::1"
+}
+{
+  "timestamp": "2024-12-15T07:51:56.819Z",
+  "method": "GET",
+  "url": "/api-docs/favicon-32x32.png",
+  "headers": {
+    "host": "localhost:5000",
+    "connection": "keep-alive",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?0",
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-dest": "image",
+    "referer": "http://localhost:5000/api-docs/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "en-US,en;q=0.9",
+    "if-none-match": "W/\"274-193aa545a70\"",
+    "if-modified-since": "Mon, 09 Dec 2024 07:31:15 GMT"
+  },
+  "body": {},
+  "ip": "::1"
+}
+{
+  "timestamp": "2024-12-15T07:52:32.655Z",
+  "method": "POST",
+  "url": "/api/applications",
+  "headers": {
+    "host": "localhost:5000",
+    "connection": "keep-alive",
+    "content-length": "75",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "accept": "application/json",
+    "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "content-type": "application/json",
+    "sec-ch-ua-mobile": "?0",
+    "origin": "http://localhost:5000",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-dest": "empty",
+    "referer": "http://localhost:5000/api-docs/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "en-US,en;q=0.9"
+  },
+  "body": {
+    "jobId": "63f9a12345678c90de123456",
+    "resume": "path/to/resume.pdf"
+  },
+  "ip": "::1"
+}
+{
+  "timestamp": "2024-12-15T07:53:14.405Z",
+  "method": "POST",
+  "url": "/api/auth/register",
+  "headers": {
+    "host": "localhost:5000",
+    "connection": "keep-alive",
+    "content-length": "90",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "accept": "application/json",
+    "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "content-type": "application/json",
+    "sec-ch-ua-mobile": "?0",
+    "origin": "http://localhost:5000",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-dest": "empty",
+    "referer": "http://localhost:5000/api-docs/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "en-US,en;q=0.9"
+  },
+  "body": {
+    "username": "johndoe",
+    "email": "johndoe@example.com",
+    "password": "password123"
+  },
+  "ip": "::1"
+}
+{
+  "timestamp": "2024-12-15T07:53:18.087Z",
+  "method": "POST",
+  "url": "/api/auth/register",
+  "headers": {
+    "host": "localhost:5000",
+    "connection": "keep-alive",
+    "content-length": "90",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "accept": "application/json",
+    "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "content-type": "application/json",
+    "sec-ch-ua-mobile": "?0",
+    "origin": "http://localhost:5000",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-dest": "empty",
+    "referer": "http://localhost:5000/api-docs/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "en-US,en;q=0.9"
+  },
+  "body": {
+    "username": "johndoe",
+    "email": "johndoe@example.com",
+    "password": "password123"
+  },
+  "ip": "::1"
+}
+{
+  "timestamp": "2024-12-15T07:53:21.622Z",
+  "method": "POST",
+  "url": "/api/auth/register",
+  "headers": {
+    "host": "localhost:5000",
+    "connection": "keep-alive",
+    "content-length": "90",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "accept": "application/json",
+    "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "content-type": "application/json",
+    "sec-ch-ua-mobile": "?0",
+    "origin": "http://localhost:5000",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-dest": "empty",
+    "referer": "http://localhost:5000/api-docs/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "en-US,en;q=0.9"
+  },
+  "body": {
+    "username": "johndoe",
+    "email": "johndoe@example.com",
+    "password": "password123"
+  },
+  "ip": "::1"
+}
+{
+  "timestamp": "2024-12-15T07:53:56.490Z",
+  "method": "POST",
+  "url": "/api/auth/register",
+  "headers": {
+    "host": "localhost:5000",
+    "connection": "keep-alive",
+    "content-length": "90",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "accept": "application/json",
+    "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "content-type": "application/json",
+    "sec-ch-ua-mobile": "?0",
+    "origin": "http://localhost:5000",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-dest": "empty",
+    "referer": "http://localhost:5000/api-docs/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "en-US,en;q=0.9"
+  },
+  "body": {
+    "username": "johndoe",
+    "email": "johndoe@example.com",
+    "password": "password123"
+  },
+  "ip": "::1"
+}
+{
+  "timestamp": "2024-12-15T07:54:19.079Z",
+  "method": "POST",
+  "url": "/api/auth/register",
+  "headers": {
+    "host": "localhost:5000",
+    "connection": "keep-alive",
+    "content-length": "90",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "accept": "application/json",
+    "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "content-type": "application/json",
+    "sec-ch-ua-mobile": "?0",
+    "origin": "http://localhost:5000",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-dest": "empty",
+    "referer": "http://localhost:5000/api-docs/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "en-US,en;q=0.9"
+  },
+  "body": {
+    "username": "johndoe",
+    "email": "johndoe@example.com",
+    "password": "password123"
+  },
+  "ip": "::1"
+}
+{
+  "timestamp": "2024-12-15T07:54:39.485Z",
+  "method": "GET",
+  "url": "/api/auth/register",
+  "headers": {
+    "host": "localhost:5000",
+    "connection": "keep-alive",
+    "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "upgrade-insecure-requests": "1",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "sec-fetch-site": "none",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-user": "?1",
+    "sec-fetch-dest": "document",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "en-US,en;q=0.9"
+  },
+  "body": {},
+  "ip": "::1"
+}
+{
+  "timestamp": "2024-12-15T07:54:39.530Z",
+  "method": "GET",
+  "url": "/favicon.ico",
+  "headers": {
+    "host": "localhost:5000",
+    "connection": "keep-alive",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?0",
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-dest": "image",
+    "referer": "http://localhost:5000/api/auth/register",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "en-US,en;q=0.9"
+  },
+  "body": {},
+  "ip": "::1"
+}
+{
+  "timestamp": "2024-12-15T08:03:20.781Z",
+  "method": "GET",
+  "url": "/api-docs/",
+  "headers": {
+    "host": "localhost:5000",
+    "connection": "keep-alive",
+    "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "upgrade-insecure-requests": "1",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "sec-fetch-site": "none",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-user": "?1",
+    "sec-fetch-dest": "document",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "en-US,en;q=0.9",
+    "if-none-match": "W/\"c22-H8FH9nKD8DeX/nvIRrte6ZjP2a4\""
+  },
+  "body": {},
+  "ip": "::1"
+}
+{
+  "timestamp": "2024-12-15T08:03:20.807Z",
+  "method": "GET",
+  "url": "/api-docs/swagger-ui.css",
+  "headers": {
+    "host": "localhost:5000",
+    "connection": "keep-alive",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?0",
+    "accept": "text/css,*/*;q=0.1",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-dest": "style",
+    "referer": "http://localhost:5000/api-docs/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "en-US,en;q=0.9",
+    "if-none-match": "W/\"25208-193aa5457c2\"",
+    "if-modified-since": "Mon, 09 Dec 2024 07:31:14 GMT"
+  },
+  "body": {},
+  "ip": "::1"
+}
+{
+  "timestamp": "2024-12-15T08:03:20.810Z",
+  "method": "GET",
+  "url": "/api-docs/swagger-ui-bundle.js",
+  "headers": {
+    "host": "localhost:5000",
+    "connection": "keep-alive",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "if-none-match": "W/\"15c282-193aa545899\"",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "if-modified-since": "Mon, 09 Dec 2024 07:31:14 GMT",
+    "sec-ch-ua-mobile": "?0",
+    "accept": "*/*",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-dest": "script",
+    "referer": "http://localhost:5000/api-docs/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "en-US,en;q=0.9"
+  },
+  "body": {},
+  "ip": "::1"
+}
+{
+  "timestamp": "2024-12-15T08:03:20.817Z",
+  "method": "GET",
+  "url": "/api-docs/swagger-ui-standalone-preset.js",
+  "headers": {
+    "host": "localhost:5000",
+    "connection": "keep-alive",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "if-none-match": "W/\"38277-193aa545939\"",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "if-modified-since": "Mon, 09 Dec 2024 07:31:14 GMT",
+    "sec-ch-ua-mobile": "?0",
+    "accept": "*/*",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-dest": "script",
+    "referer": "http://localhost:5000/api-docs/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "en-US,en;q=0.9"
+  },
+  "body": {},
+  "ip": "::1"
+}
+{
+  "timestamp": "2024-12-15T08:03:20.820Z",
+  "method": "GET",
+  "url": "/api-docs/swagger-ui-init.js",
+  "headers": {
+    "host": "localhost:5000",
+    "connection": "keep-alive",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "if-none-match": "W/\"3469-Yf/RB0kOW/JiFp0HEffi+MUygoI\"",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?0",
+    "accept": "*/*",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-dest": "script",
+    "referer": "http://localhost:5000/api-docs/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "en-US,en;q=0.9"
+  },
+  "body": {},
+  "ip": "::1"
+}
+{
+  "timestamp": "2024-12-15T08:03:36.768Z",
+  "method": "POST",
+  "url": "/api/auth/register",
+  "headers": {
+    "host": "localhost:5000",
+    "connection": "keep-alive",
+    "content-length": "90",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "accept": "application/json",
+    "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "content-type": "application/json",
+    "sec-ch-ua-mobile": "?0",
+    "origin": "http://localhost:5000",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-dest": "empty",
+    "referer": "http://localhost:5000/api-docs/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "en-US,en;q=0.9"
+  },
+  "body": {
+    "username": "johndoe",
+    "email": "johndoe@example.com",
+    "password": "password123"
+  },
+  "ip": "::1"
+}
+{
+  "timestamp": "2024-12-15T08:09:24.095Z",
+  "method": "POST",
+  "url": "/api/auth/register",
+  "headers": {
+    "host": "localhost:5000",
+    "connection": "keep-alive",
+    "content-length": "86",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "accept": "application/json",
+    "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "content-type": "application/json",
+    "sec-ch-ua-mobile": "?0",
+    "origin": "http://localhost:5000",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-dest": "empty",
+    "referer": "http://localhost:5000/api-docs/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "en-US,en;q=0.9"
+  },
+  "body": {
+    "name": "johndoe",
+    "email": "johndoe@example.com",
+    "password": "password123"
+  },
+  "ip": "::1"
+}
+{
+  "timestamp": "2024-12-15T08:10:11.226Z",
+  "method": "POST",
+  "url": "/api/auth/login",
+  "headers": {
+    "host": "localhost:5000",
+    "connection": "keep-alive",
+    "content-length": "65",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "accept": "application/json",
+    "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "content-type": "application/json",
+    "sec-ch-ua-mobile": "?0",
+    "origin": "http://localhost:5000",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-dest": "empty",
+    "referer": "http://localhost:5000/api-docs/",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "en-US,en;q=0.9"
+  },
+  "body": {
+    "email": "johndoe@example.com",
+    "password": "password123"
+  },
+  "ip": "::1"
+}
