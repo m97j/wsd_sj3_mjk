@@ -3,6 +3,7 @@ const dotenv = require('dotenv');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const connectDatabase = require('./config/database');
+const createCappedCollection = require('./config/cappedCollection');
 const logger = require('./utils/logger');
 const { crawlSaramin } = require('./crawler/crawl_saramin'); // 크롤링 함수 추가
 const requestLogger = require('./middlewares/requestLogger');
@@ -22,7 +23,15 @@ dotenv.config();
 const app = express();
 
 // Connect to MongoDB
-connectDatabase();
+(async () => {
+  try {
+    await connectDatabase(); // MongoDB 연결
+    await createCappedCollection(); // Capped Collection 생성
+  } catch (error) {
+    console.error('❌ Initialization failed:', error.message);
+    process.exit(1);
+  }
+})();
 
 // Middleware
 app.use(cors());

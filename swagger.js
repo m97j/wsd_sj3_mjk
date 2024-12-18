@@ -10,7 +10,7 @@ const swaggerOptions = {
       version: '1.0.0',
       description: 'API documentation for Job Board application',
     },
-    servers: [{ url: 'http://113.198.66.67:17233' }],
+    servers: [{ url: 'http://113.198.66.75:17233' }],
   },
   apis: [path.join(__dirname, './swagger/swagger.yaml')], // swagger.yaml 경로
 };

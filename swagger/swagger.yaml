@@ -3,12 +3,8 @@ info:
   title: Job Board API
   description: RESTful API documentation for the Job Board application.
   version: 1.0.0
-  contact:
-    name: Developer Support
-    email: developer@example.com
-    url: https://example.com/support
 servers:
-  - url: http://localhost:5000
+  - url: http://113.198.66.75:17233
     description: Local development server
 paths:
   /api/auth/register:

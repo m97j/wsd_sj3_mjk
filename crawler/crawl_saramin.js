@@ -1,19 +1,34 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
-const { MongoClient } = require('mongodb');
-const schedule = require('node-schedule');
 const logger = require('../utils/logger');
+const connectDatabase = require('../config/database'); 
+const Job = require('../models/Job'); 
 
-// MongoDB 설정
-const mongoUri = 'mongodb://localhost:27017';
-const dbName = 'job_board';
-const collectionName = 'jobs';
+// IP 차단 여부 확인
+async function isBlockedBySaramin() {
+  const testUrl = 'https://www.saramin.co.kr/zf_user/search/recruit';
 
-// MongoDB 연결
-async function connectToMongo() {
-  const client = new MongoClient(mongoUri);
-  await client.connect();
-  return client.db(dbName).collection(collectionName);
+  try {
+    const response = await axios.get(testUrl, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+      },
+      timeout: 5000,
+    });
+
+    if (response.status === 200) {
+      return false; // 정상 접근 가능
+    }
+  } catch (error) {
+    if (error.response && error.response.status === 403) {
+      logger.error('IP is blocked by Saramin.');
+      return true; // 차단됨
+    }
+
+    logger.error(`Failed to check IP status: ${error.message}`);
+    throw error;
+  }
+  return false;
 }
 
 // HTML 페이지 가져오기
@@ -33,7 +48,7 @@ async function fetchPage(url) {
 }
 
 // 크롤링 및 MongoDB 저장
-async function crawlPage(collection, keyword, page) {
+async function crawlPage(keyword, page) {
   const url = `https://www.saramin.co.kr/zf_user/search/recruit?searchType=search&searchword=${keyword}&recruitPage=${page}`;
   logger.info(`Fetching URL: ${url}`);
 
@@ -60,17 +75,17 @@ async function crawlPage(collection, keyword, page) {
         location,
         experience,
         education,
-        employmentType,
-        deadline,
+        employment_type: employmentType,
+        deadline: deadline ? new Date(deadline) : null,
       };
 
       jobs.push(job);
     });
 
     for (const job of jobs) {
-      const existing = await collection.findOne({ link: job.link });
+      const existing = await Job.findOne({ link: job.link });
       if (!existing) {
-        await collection.insertOne(job);
+        await Job.create(job);
         logger.info(`Inserted job: ${job.title}`);
       } else {
         logger.info(`Job already exists: ${job.title}`);
@@ -83,24 +98,27 @@ async function crawlPage(collection, keyword, page) {
 
 // 여러 키워드 및 페이지 크롤링
 async function crawlSaramin(keywords, pages = 10) {
-  const collection = await connectToMongo();
+  try {
+    const isBlocked = await isBlockedBySaramin();
 
-  for (const keyword of keywords) {
-    logger.info(`Crawling keyword: ${keyword}`);
-    for (let page = 1; page <= pages; page++) {
-      await crawlPage(collection, keyword, page);
+    if (isBlocked) {
+      logger.error('Crawling aborted: IP is blocked.');
+      return; // 차단된 경우 함수 종료
     }
+
+    await connectDatabase(); // 데이터베이스 연결
+
+    for (const keyword of keywords) {
+      logger.info(`Crawling keyword: ${keyword}`);
+      for (let page = 1; page <= pages; page++) {
+        await crawlPage(keyword, page);
+      }
+    }
+
+    logger.info('Crawling completed for all keywords.');
+  } catch (error) {
+    logger.error(`Crawling failed: ${error.message}`);
   }
-
-  logger.info('Crawling completed for all keywords.');
 }
 
-// 스케줄링된 크롤링
-function scheduleCrawl(keywords, pages) {
-  schedule.scheduleJob('0 0 * * *', async () => {
-    logger.info('Starting scheduled crawl...');
-    await crawlSaramin(keywords, pages);
-  });
-}
-
-module.exports = { crawlSaramin, scheduleCrawl };
+module.exports = { crawlSaramin };
